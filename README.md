@@ -24,15 +24,24 @@ Also can check flutter version from /.fvmrc
 }
 ```
 
-## About Fibonacci Symbol Classification
+# About Fibonacci Symbol Classification
 
-This project includes a Fibonacci number classification system based on an unclear rule. To determine the pattern, I analyzed the given data and used **ChatGPT** for assistance.
+A system to assign symbols to Fibonacci numbers based on their modulo 3 value.
 
-### **Rules Identified:**
-- **⭕ (Circle):** Multiples of 3.
-- **🔲 (Empty Square):** Contains only digits **0, 1, 2, 3, 4, 5, or 6**.
-- **❎ (Cross):** Contains **7, 8, or 9**, or is exactly **2 or 5**.
+## Rules
 
-Since the rule was not explicitly provided, I refined the pattern through multiple iterations to ensure accuracy.
+Divide the Fibonacci number by 3 and check the remainder:
+- Remainder 0 → ⭕
+- Remainder 1 → 🔲
+- Remainder 2 → ❎
 
-For any clarifications or exact rule details, feel free to contact me at **p.ploypukdee@gmail.com**.
+## Example
+```
+F(0) = 0 ≡ 0 (mod 3) → ⭕
+F(1) = 1 ≡ 1 (mod 3) → 🔲
+F(2) = 1 ≡ 1 (mod 3) → 🔲
+F(3) = 2 ≡ 2 (mod 3) → ❎
+F(4) = 3 ≡ 0 (mod 3) → ⭕
+```
+
+Feel free to contact me at **p.ploypukdee@gmail.com**.
