@@ -44,4 +44,12 @@ F(3) = 2 ≡ 2 (mod 3) → ❎
 F(4) = 3 ≡ 0 (mod 3) → ⭕
 ```
 
-Feel free to contact me at **p.ploypukdee@gmail.com**.
+## Download APK
+
+You can download the latest APK from the **Releases** section of this GitHub repository.
+
+1. Go to the **[Releases](https://github.com/SyLiz/mobile_assignment_flutter/releases)** page.
+2. Download the latest APK file.
+3. Install it on your Android device.
+
+For any issues, feel free to contact me at **p.ploypukdee@gmail.com**.
